@@ -11,8 +11,8 @@ public class Uzduotis03 {
         System.out.println("Iveskite 2 skacius:");
         Scanner skaitytuvas = new Scanner(System.in);
 
-        float a = skaitytuvas.nextFloat();
-        float b = skaitytuvas.nextFloat();
+        int a = skaitytuvas.nextInt();
+        int b = skaitytuvas.nextInt();
 
         System.out.println(suma(a, b));
         System.out.println(skirtumas((int) a, (int) b));

@@ -9,6 +9,7 @@ public class Uzduotis04 {
         int svoris = skaneris.nextInt();
         System.out.println("Iveskite Savo ugi:");
         double ugis = skaneris.nextDouble();
+    }
 
     public static double KMI(int svoris, double ugis) {
 
@@ -17,4 +18,4 @@ public class Uzduotis04 {
     }
 }
 
-}
+
